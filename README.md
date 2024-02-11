@@ -2,8 +2,21 @@
 
 ## Table of Contents
 [Project Overview](#project-overview)
+
 [Analysis](#analysis)
-[Recommendations](#recommendations)
+
+[Univariate Analysis](#univariate-analysis)
+
+[Bivariate Analysis](#bivariate-analysis)
+
+[Coorelation Analysis](#coorelation-analysis)
+
+[Machine Leaning Model](#machine-learning-model)
+
+[Conclusions](#conclusions)
+
+[Recommendations to improve employee perfomance](#recommendations-to-improve-employee-perfomance)
+
 ## Project Overview
 
 The project is set to analyse the employee perfomance in INX Future Inc, which is a data analytics and automation solution provider.For the past 5 years, the company is rated among the best 20 employees. However, recently the company has seen the employee performance indexes are not healthy and this is becoming a growing concern among the top management. There has been increased escalations on service delivery and client satisfaction levels came down by 8 percentage points. The CEO decided to initiate a data science project , which aims to analyse the employee perfomance. The following goals and insights are expected from the project :
@@ -124,12 +137,9 @@ People who have more experience with the company has the more probability to get
 
 In this plot, the age has the important role in the total number of work experience of an employee where it is a universal truth.
 
-### TOP 3 IMPORTANT FACTORS
-One of the goals of this project is to find the important feature affecting the performance rating. The important features were predicted using the machine learning model(Random Forest Classifier) feature importance technique.From it the Machine Learning Model concluded that the following are the important features:
-1. Employee Salary Hike Percentage
-2. Employee Environment Satisfaction
-3. Years Since the last Promotion
-### A TRAINED MODEL WHICH CAN PREDICT THE EMPLOYEE PERFORMANCE BASED ON FACTORS AS INPUTS
+### Machine Learning Model
+
+A TRAINED MODEL WHICH CAN PREDICT THE EMPLOYEE PERFORMANCE BASED ON FACTORS AS INPUTS
 
 A machine learning model was trained using the data and the following are the accuracy scores:
 1.   Random Forest classifier - 91%
@@ -137,7 +147,16 @@ A machine learning model was trained using the data and the following are the ac
 
 Random Forest Classifier had the highest accuracy score(91%) therefore suitable for training and developing the model.
 
-### RECOMMENDATIONS TO IMPROVE THE EMPLOYEE PERFORMANCE
+### Conclusions 
+
+#### TOP 3 IMPORTANT FACTORS
+One of the goals of this project is to find the important feature affecting the performance rating. The important features were predicted using the machine learning model(Random Forest Classifier) feature importance technique.From it the Machine Learning Model concluded that the following are the important features:
+1. Employee Salary Hike Percentage
+2. Employee Environment Satisfaction
+3. Years Since the last Promotion
+
+
+### Recommendations to improve employee perfomance
 
 The recommendations are as follows:
 
