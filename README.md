@@ -1,7 +1,9 @@
 # Employee-Perfomance-Analysis
 
 ## Table of Contents
-
+[Project Overview](#project-overview)
+[Analysis](#analysis)
+[Recommendations](#recommendations)
 ## Project Overview
 
 The project is set to analyse the employee perfomance in INX Future Inc, which is a data analytics and automation solution provider.For the past 5 years, the company is rated among the best 20 employees. However, recently the company has seen the employee performance indexes are not healthy and this is becoming a growing concern among the top management. There has been increased escalations on service delivery and client satisfaction levels came down by 8 percentage points. The CEO decided to initiate a data science project , which aims to analyse the employee perfomance. The following goals and insights are expected from the project :
@@ -127,16 +129,13 @@ One of the goals of this project is to find the important feature affecting the 
 1. Employee Salary Hike Percentage
 2. Employee Environment Satisfaction
 3. Years Since the last Promotion
-
-[Visualisation of Important Features] ![Visualisation of Important Features (1)](https://github.com/Onsombi-Felisha/Employee-Perfomance-Analysis/assets/158271901/efa41b6b-55b9-484d-91b0-a37a7fc2da77)
-
 ### A TRAINED MODEL WHICH CAN PREDICT THE EMPLOYEE PERFORMANCE BASED ON FACTORS AS INPUTS
 
 A machine learning model was trained using the data and the following are the accuracy scores:
 1.   Random Forest classifier - 91%
 2.   Decision Tree Classifier - 87%
 
-Random Forest Classifier had the highest accuracy score(91%) thereforesuitable for training and developing the model.
+Random Forest Classifier had the highest accuracy score(91%) therefore suitable for training and developing the model.
 
 ### RECOMMENDATIONS TO IMPROVE THE EMPLOYEE PERFORMANCE
 
